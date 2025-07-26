@@ -25,6 +25,6 @@ export const App = () => (
   <section className="App">
     <h1 className="App__title">Static list of posts</h1>
 
-    <PostList list={getEnrichedPosts()} />
+    <PostList posts={getEnrichedPosts()} />
   </section>
 );
